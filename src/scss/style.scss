@@ -1,8 +1,16 @@
-@import 'variables';
-@import "mixins";
+@import "base/variables";
+@import "base/mixins";
 @include MuseoSansCyrl;
-*{
-    background-color: $black;
-    font-family: $MuseoSansCyrl;
-    color: $red;
+
+* {
+  font-family: $MuseoSansCyrl;
 }
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
