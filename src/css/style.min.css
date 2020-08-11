@@ -1,1 +1,1 @@
-*{background-color:#b00}
+@font-face{font-family:MuseoSansCyrl;src:local("MuseoSansCyrl"),local("MuseoSansCyrl-300"),url(../fonts/MuseoSansCyrl-300.ttf) format("truetype"),url(../fonts/MuseoSansCyrl-300.woff) format("woff");font-weight:400;font-style:normal}*{background-color:#050505;font-family:MuseoSansCyrl;color:red}

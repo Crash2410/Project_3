@@ -1,0 +1,12 @@
+@mixin MuseoSansCyrl {
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: local('MuseoSansCyrl'),
+         local('MuseoSansCyrl-300'),
+         url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+         url('../fonts/MuseoSansCyrl-300.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+  }
