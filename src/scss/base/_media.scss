@@ -21,6 +21,12 @@
       font-size: 34px;
     }
   }
+
+  .carusel {
+    &__inner{
+      width: 600px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -68,6 +74,12 @@
 
   .feed-form {
     margin: 36px auto 0 auto;
+  }
+
+  .carusel {
+    &__inner{
+      width: 90%;
+    }
   }
 }
 
@@ -126,6 +138,12 @@
     
     &__descr{
       font-size: 15px;
+    }
+  }
+
+  .carusel {
+    &__inner{
+      width: 90%;
     }
   }
 }
