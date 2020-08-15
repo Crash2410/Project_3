@@ -23,8 +23,17 @@
   }
 
   .carusel {
-    &__inner{
+    &__inner {
       width: 600px;
+    }
+  }
+
+  .catalog {
+    &__content {
+      width: 650px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 60px auto 0 auto;
     }
   }
 }
@@ -77,8 +86,33 @@
   }
 
   .carusel {
-    &__inner{
+    &__inner {
       width: 90%;
+    }
+  }
+
+  .catalog {
+    &__inner {
+      width: 90%;
+    }
+
+    &__content {
+      width: 90%;
+      justify-content: space-between;
+      margin: 60px auto 0 auto;
+    }
+
+    &__tab {
+      width: 170px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 679px) {
+  .catalog {
+    &__content {
+      justify-content: center;
     }
   }
 }
@@ -123,7 +157,7 @@
     }
   }
 
-  .advantage{
+  .advantage {
     height: 1050px;
   }
 
@@ -135,15 +169,21 @@
   }
 
   .consultation {
-    
-    &__descr{
+    &__descr {
       font-size: 15px;
     }
   }
 
   .carusel {
-    &__inner{
+    &__inner {
       width: 90%;
+    }
+  }
+
+  .catalog {
+    &__tab {
+      width: 28%;
+      font-size: 9px;
     }
   }
 }

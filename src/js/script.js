@@ -8,12 +8,12 @@ $(document).ready(function () {
       '<button type="button" class="slick-next"><img src="./icons/arrow_right.png" ></button>',
     responsive: [
       {
-        breakpoint: 767,
+        breakpoint: 790,
         settings: {
           arrows: false,
           dots: true,
         },
-      },
+      }
     ],
   });
 
