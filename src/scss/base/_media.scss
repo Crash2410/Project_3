@@ -303,4 +303,12 @@
       width: 280px;
     }
   }
+
+  .modal {
+    width: 85%;
+    &__close {
+      top: -12px;
+      right: -11px;
+    }
+  }
 }
