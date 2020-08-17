@@ -28,10 +28,12 @@
     font-size: 18px;
     font-weight: 700;
     color: $white;
+    transition: 0.6s all;
 
     &:hover {
         color: $white;
         text-decoration: none;
+        text-shadow: 2px 2px 10px $white;
     }
   }
 
