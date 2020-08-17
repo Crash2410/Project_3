@@ -1,5 +1,5 @@
 .consultation {
-  height: 680px;
+  min-height: 680px;
   padding: 100px 0 92px 0;
   background: url(../img/backgrounds/background_2.png) center (center/cover)
     no-repeat;
@@ -8,5 +8,17 @@
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
+  }
+
+  .error {
+    border: 1px solid red;
+  }
+
+  label.error {
+    display: block;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: $white;
   }
 }
