@@ -3,9 +3,9 @@ $(document).ready(function () {
     speed: 1200,
     adaptiveHeight: false,
     prevArrow:
-      '<button type="button" class="slick-prev"><img src="./icons/arrow_left.png" ></button>',
+      '<button type="button" class="slick-prev"><div class="arrow_left"></div></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="./icons/arrow_right.png" ></button>',
+      '<button type="button" class="slick-next"><div class="arrow_right"></div></button>',
     responsive: [
       {
         breakpoint: 790,
