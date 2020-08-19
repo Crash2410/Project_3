@@ -25,6 +25,11 @@
     line-height: 21px;
     color: #c70101;
     cursor: pointer;
+    transition: 0.6s all;
+
+    &:hover {
+      text-shadow: 0px 0px 10px #c70101, 1px 1px 20px #c70101, 2px 2px 30px #c70101;
+    }
   }
 
   &__subtitle {
